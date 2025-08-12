@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.h1 {
+  text-align: center;
+  color: #333;
+}
+
+.main {
+  padding: 20px;
+}
+
+.coluna-filtros {
+  width: 25%;
+  padding: 15px;
+  background-color: #fff;
+  margin-right: 20px;
+}
+
+.coluna-graficos {
+  width: 75%;
+  padding: 15px;
+}
+
+.dropdown {
+  font-weight: bold;
+  color: #555;
+}
