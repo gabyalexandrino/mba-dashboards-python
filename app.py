@@ -1,3 +1,4 @@
+import os
 import dash
 from dash import html, dcc, Input, Output
 import plotly.express as px
@@ -98,4 +99,4 @@ def atualizar_dashboard(dia_selecionado):
 
 # Executa a aplicacao
 if __name__ == '__main__':
-    app.run(port=8051, debug=True)
+    app.run(host="0.0.0.0",port=int(os.environ.get("PORT",8051)))
