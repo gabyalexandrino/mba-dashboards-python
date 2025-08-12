@@ -98,4 +98,4 @@ def atualizar_dashboard(dia_selecionado):
 
 # Executa a aplicacao
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=8051, debug=True)
